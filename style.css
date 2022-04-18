@@ -1,0 +1,165 @@
+body{
+    
+}
+
+.Pai {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000000;
+    font-family: 'IBM Plex Sans';
+    color: white;
+}
+
+.imagem {
+    padding-top: 50px;
+    padding-bottom: 10px;
+
+}
+
+.h1 {
+    padding-bottom: 30px;
+
+}
+
+.box-center {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 330px;
+    padding-right: 310px;
+    background-color: #000000;
+    height: 500px;
+
+}
+
+.box1 {
+    width: 160px;
+    height: 250px;
+    overflow: hidden;
+
+}
+
+.box2 {
+    width: 160px;
+    height: 250px;
+    overflow: hidden;
+
+}
+
+.box3 {
+    width: 160px;
+    height: 250px;
+    overflow: hidden;
+
+}
+
+.box4 {
+    width: 160px;
+    height: 250px;
+    margin-left: 8px;
+    overflow: hidden;
+
+}
+
+.box1 img{
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+
+}
+
+.box1:hover img{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.box2 img{
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+
+}
+
+.box2:hover img{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.box3 img{
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+
+}
+
+.box3:hover img{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.box4 img{
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.box4:hover img{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}
+
+.Nome {
+    width: 150px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+p {
+    color: white;
+    font-family: 'IBM Plex Sans';
+    display: flex;
+    justify-content: center;
+
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #000000;
+    padding-left: 230px;
+
+}
+   
+.botao{
+    width: 200px;
+    height: 50px;
+    color: white;
+    background-color: #000000;
+    border-radius: 8px;
+    border: solid white;
+
+}
+
+
